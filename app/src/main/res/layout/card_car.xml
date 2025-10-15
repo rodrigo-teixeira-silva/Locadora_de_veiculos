@@ -7,8 +7,6 @@
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
     app:cardCornerRadius="12dp">
-<!--    app:cardElevation="8dp"-->
-    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,11 +28,11 @@
                 android:textColor="@color/title_color"
                 android:text="Audi"
                 android:fontFamily="@font/archivo_medium"
-                android:upercase="true"
+                android:textAllCaps="true"
                 android:layout_marginStart="0dp"
-                android:textSize="10dp"
-                android:layout_marginTop="24px"
-                android:layout_marginLeft="24px"
+                android:textSize="10sp"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="24dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -45,8 +43,6 @@
                 android:text="RS 5 Coupé"
                 android:textSize="14sp" />
 
-
-
             <TextView
                 android:id="@+id/card_title_2"
                 android:layout_width="match_parent"
@@ -54,43 +50,37 @@
                 android:layout_marginStart="0dp"
                 android:text="Ao dia"
                 android:fontFamily="@font/archivo_medium"
-                android:upercase="true"
+                android:textAllCaps="true"
                 android:textColor="@color/title_color"
-                android:textSize="10dp"
-                android:layout_marginTop="24px"
-                android:layout_marginLeft="24px"
+                android:textSize="10sp"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="24dp"
                 android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
-            <TextView
-                android:id="@+id/card_subtitle_2"
-                android:layout_width="49dp"
-                android:layout_height="16dp"
-                android:text="R$ 120"
-                android:textStyle="bold"
-                android:fontFamily="@font/archivo_medium"
-                android:textColor="@color/red"
-                android:textSize="14sp" />
 
-            <ImageView
-                android:id="@+id/card_time_icon"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginTop="0px"
-                android:layout_marginLeft="35px"
-                android:src="@drawable/energy"
-                android:contentDescription="Ícone de energia"
-                />
+                <TextView
+                    android:id="@+id/card_subtitle_2"
+                    android:layout_width="49dp"
+                    android:layout_height="16dp"
+                    android:text="R$ 120"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/archivo_medium"
+                    android:textColor="@color/red"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/card_time_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="35dp"
+                    android:src="@drawable/energy"
+                    android:contentDescription="Ícone de energia" />
             </LinearLayout>
-
         </LinearLayout>
-
-
-
-
-
 
         <ImageView
             android:id="@+id/card_icon"
@@ -98,8 +88,7 @@
             android:layout_height="92dp"
             android:src="@mipmap/ic_launcher"
             android:layout_gravity="center_vertical"
-            android:contentDescription="Ícone"/>
+            android:contentDescription="Ícone" />
 
     </LinearLayout>
-
 </com.google.android.material.card.MaterialCardView>
